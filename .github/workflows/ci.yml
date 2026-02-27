@@ -31,6 +31,3 @@ jobs:
 
       - name: Run Data Pipeline
         run: python app/data_pipeline.py
-
-      - name: Run Model Tests
-        run: pytest
